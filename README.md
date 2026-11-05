@@ -1,6 +1,39 @@
 # 教育学研究 Skill 套件：使用说明与兼容性检查
 
-> 本仓库当前收录说明文档。以下目录结构和运行命令面向完整的原始套件，需在取得套件文件后使用。
+本仓库包含完整的原始技能套件和使用说明。套件目录为 [`education-research-skill-suite/`](education-research-skill-suite/)，其中保留原有文件与研究流程。本次上传未修改技能正文、脚本或模板。
+
+## 快速开始
+
+1. 下载本仓库 ZIP 并解压，或使用 Git 克隆：
+
+   ```powershell
+   git clone https://github.com/AaHa123/education-researcher-skill.git
+   cd education-researcher-skill/education-research-skill-suite
+   ```
+
+2. 在支持读取本地文件的 AI 代理中，指定该目录，并使用以下提示：
+
+   > 请读取当前套件目录中的 `skills/00-orchestrator/SKILL.md`，根据我的研究目标和已有材料识别阶段，再按需读取对应专业模块。脚本和模板路径均以套件根目录为基准。先说明本轮任务和交付物，再推进工作。
+
+3. 如需新建研究项目，准备 Python 3 后，在套件根目录运行：
+
+   ```powershell
+   python scripts/init_project.py --name "我的教育研究" --out ./my_research
+   python -B -m unittest discover -s tests -v
+   ```
+
+当前版本可按文件路径手动加载。Codex 自动发现所需的元数据和共享资源路径仍待适配，详见本文第 6 节。
+
+### 文档入口
+
+- [原套件使用说明与命令](education-research-skill-suite/README.md)
+- [完整研究工作流程](education-research-skill-suite/FULL_WORKFLOW.md)
+- [总控技能入口](education-research-skill-suite/skills/00-orchestrator/SKILL.md)
+- [模块与关口清单](education-research-skill-suite/manifest.json)
+- [工作模板](education-research-skill-suite/templates/)
+- [虚构演示数据及说明](education-research-skill-suite/examples/)
+
+以下为原始套件的兼容性检查报告；其中目录结构与运行命令均以 `education-research-skill-suite/` 为基准。
 
 检查日期：2026-11-06
 

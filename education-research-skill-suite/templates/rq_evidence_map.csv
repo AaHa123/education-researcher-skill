@@ -1,0 +1,3 @@
+﻿rq_id,variable_or_theme,data_source,measurement_or_coding,analysis_method,limitation
+RQ1,课堂兴趣;使用意愿,T1问卷,经溯源修订量表,描述与相关/回归（按分布）,非实验关联，不作因果推断
+RQ2,使用意愿;实际采用,T1问卷;T2 PPT作品,匹配编号;风格类型编码,交叉表/回归（视样本而定）,作业任务可能限制自由选择

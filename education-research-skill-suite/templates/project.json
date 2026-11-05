@@ -1,0 +1,29 @@
+{
+  "project_id": "EDU-2026-EXAMPLE",
+  "title": "网络热梗PPT与大学生课堂体验及课件设计选择研究（待确认）",
+  "discipline": "教育技术学",
+  "research_type": "观察性纵向研究（示例，待确认）",
+  "target_journal": "待定",
+  "research_units": [
+    "学生",
+    "PPT作品"
+  ],
+  "analysis_units": [
+    "学生个体",
+    "学生作品"
+  ],
+  "study_dates": {
+    "T0": "待定",
+    "T1": "待定",
+    "T2": "待定"
+  },
+  "primary_rq": [
+    "RQ1: 课堂体验与后续使用意愿有什么关系？",
+    "RQ2: 使用意愿与作品中实际使用风格有什么关系？"
+  ],
+  "design_limitations": [
+    "没有对照组时不作教学效果因果推断"
+  ],
+  "ethics_status": "未确认",
+  "data_access": "未确认"
+}

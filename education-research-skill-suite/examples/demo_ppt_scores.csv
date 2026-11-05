@@ -1,0 +1,5 @@
+﻿student_id,rater_id,goal_alignment,content_accuracy,clarity,dynamic_function,distraction_control
+DEMO001,R1,4,5,4,4,3
+DEMO001,R2,5,5,4,3,4
+DEMO002,R1,2,4,3,2,2
+DEMO002,R2,2,3,3,1,2

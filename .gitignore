@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+education-research-skill-suite/my_research/
+education-research-skill-suite/output/

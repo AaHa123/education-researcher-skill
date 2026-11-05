@@ -1,0 +1,33 @@
+{
+  "min_score": 1,
+  "max_score": 5,
+  "max_rater_difference": 1.5,
+  "dimensions": [
+    {
+      "key": "goal_alignment",
+      "name": "目标与素材匹配",
+      "weight": 0.25
+    },
+    {
+      "key": "content_accuracy",
+      "name": "内容准确性",
+      "weight": 0.25
+    },
+    {
+      "key": "clarity",
+      "name": "信息呈现清晰性",
+      "weight": 0.2
+    },
+    {
+      "key": "dynamic_function",
+      "name": "动态元素教学功能",
+      "weight": 0.2
+    },
+    {
+      "key": "distraction_control",
+      "name": "认知干扰控制",
+      "weight": 0.1
+    }
+  ],
+  "notes": "分值1~5；每位评分者单独评分；权重只是示例，须经专家审查；脚本不会计算ICC或Cohen κ。"
+}

@@ -1,0 +1,86 @@
+{
+  "bundle_name": "education-research-skill-suite",
+  "version": "1.0.0",
+  "language": "zh-CN",
+  "entrypoint": "skills/00-orchestrator/SKILL.md",
+  "formal_gates": {
+    "G1": {
+      "after": [
+        "03-literature-review",
+        "04-theory-and-questions"
+      ],
+      "before": "05-research-design",
+      "template": "templates/gate_g1.json"
+    },
+    "G2": {
+      "after": [
+        "05-research-design",
+        "06-measurement-and-ethics"
+      ],
+      "before": "07-data-collection",
+      "template": "templates/gate_g2.json"
+    }
+  },
+  "skills": [
+    {
+      "id": "00-orchestrator",
+      "title": "教育学研究全流程总控 Skill",
+      "path": "skills/00-orchestrator/SKILL.md"
+    },
+    {
+      "id": "01-topic-selection",
+      "title": "教育学研究选题 Skill",
+      "path": "skills/01-topic-selection/SKILL.md"
+    },
+    {
+      "id": "02-introduction",
+      "title": "教育学论文引言分析 Skill",
+      "path": "skills/02-introduction/SKILL.md"
+    },
+    {
+      "id": "03-literature-review",
+      "title": "教育学国内外文献综述 Skill",
+      "path": "skills/03-literature-review/SKILL.md"
+    },
+    {
+      "id": "04-theory-and-questions",
+      "title": "教育学理论框架与研究问题 Skill",
+      "path": "skills/04-theory-and-questions/SKILL.md"
+    },
+    {
+      "id": "05-research-design",
+      "title": "教育学研究设计 Skill",
+      "path": "skills/05-research-design/SKILL.md"
+    },
+    {
+      "id": "06-measurement-and-ethics",
+      "title": "教育研究测量工具与伦理 Skill",
+      "path": "skills/06-measurement-and-ethics/SKILL.md"
+    },
+    {
+      "id": "07-data-collection",
+      "title": "教育研究数据采集与治理 Skill",
+      "path": "skills/07-data-collection/SKILL.md"
+    },
+    {
+      "id": "08-data-analysis",
+      "title": "教育研究数据分析 Skill",
+      "path": "skills/08-data-analysis/SKILL.md"
+    },
+    {
+      "id": "09-ai-industry-support",
+      "title": "AI技术与教育行业支持 Skill",
+      "path": "skills/09-ai-industry-support/SKILL.md"
+    },
+    {
+      "id": "10-paper-writing",
+      "title": "教育学期刊论文写作 Skill",
+      "path": "skills/10-paper-writing/SKILL.md"
+    },
+    {
+      "id": "11-review-and-archive",
+      "title": "教育学研究评审、投稿与归档 Skill",
+      "path": "skills/11-review-and-archive/SKILL.md"
+    }
+  ]
+}

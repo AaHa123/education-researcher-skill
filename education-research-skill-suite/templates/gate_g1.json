@@ -1,0 +1,59 @@
+{
+  "gate": "G1",
+  "project_id": "EDU-2026-EXAMPLE",
+  "reviewer_name": "",
+  "review_date": "",
+  "summary_decision": "pending",
+  "items": [
+    {
+      "id": "research_object",
+      "criterion": "研究对象／分析单位及限定边界明确",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "search_log",
+      "criterion": "文献检索与筛选过程可审计",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "literature_review",
+      "criterion": "独立综述已完成且有综合述评",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "research_gap",
+      "criterion": "创新性主张有文献比较支持",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "research_questions",
+      "criterion": "RQ可回答、表述与推断类型匹配",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "theory_link",
+      "criterion": "理论依据与RQ有直接联系",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "feasibility",
+      "criterion": "数据路径与伦理风险已初步确认",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    }
+  ],
+  "notes": "每项status填pass／revise／na，必查项不允许na；脚本只做材料完整性验证，不代替专家判断。"
+}

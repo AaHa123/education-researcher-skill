@@ -1,0 +1,37 @@
+{
+  "id_column": "research_id",
+  "missing_values": [
+    "",
+    "NA",
+    "N/A",
+    "null"
+  ],
+  "scales": [
+    {
+      "name": "感知兴趣（示例）",
+      "items": [
+        "I01",
+        "I02",
+        "I03"
+      ],
+      "reverse_items": [],
+      "min": 1,
+      "max": 5,
+      "source_note": "仅演示代码本格式：须替换为实际题目与量表溯源信息"
+    },
+    {
+      "name": "感知干扰（示例）",
+      "items": [
+        "D01",
+        "D02",
+        "D03"
+      ],
+      "reverse_items": [
+        "D03"
+      ],
+      "min": 1,
+      "max": 5,
+      "source_note": "D03反向仅为演示；必须与实际问卷计分核对"
+    }
+  ]
+}

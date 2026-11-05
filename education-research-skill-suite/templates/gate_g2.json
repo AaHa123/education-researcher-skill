@@ -1,0 +1,73 @@
+{
+  "gate": "G2",
+  "project_id": "EDU-2026-EXAMPLE",
+  "reviewer_name": "",
+  "review_date": "",
+  "summary_decision": "pending",
+  "items": [
+    {
+      "id": "rq_data_map",
+      "criterion": "RQ—变量／主题—数据—分析方法对应完整",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "sampling",
+      "criterion": "抽样与样本／资料充分性计划清晰",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "design_control",
+      "criterion": "研究程序、对照或混杂处理清晰",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "instrument_trace",
+      "criterion": "工具来源、改编与计分可追溯",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "pilot_quality",
+      "criterion": "预测试和测量质量评估计划完整",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "analysis_plan",
+      "criterion": "预分析计划、缺失与异常处理明确",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "ethics",
+      "criterion": "伦理批准或正式豁免／适用流程已核实",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "data_security",
+      "criterion": "知情同意、个人数据与作品管理方案完整",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    },
+    {
+      "id": "implementation",
+      "criterion": "实施操作流程、版本与偏差记录已定",
+      "status": "pending",
+      "evidence_ref": "",
+      "reviewer_note": ""
+    }
+  ],
+  "notes": "每项status填pass／revise／na，必查项不允许na；脚本只做材料完整性验证，不代替专家判断。"
+}
